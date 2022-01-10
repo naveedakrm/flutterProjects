@@ -1,4 +1,5 @@
 import 'package:flt01/utils/MyRoute.dart';
+import 'package:flt01/widgets/Drawer.dart';
 import 'package:flutter/material.dart';
 
 class homepage extends StatelessWidget {
@@ -26,7 +27,7 @@ class homepage extends StatelessWidget {
                       ],
                     ),
                 ),
-        drawer: Drawer(),
+        drawer: MyDrawer(),
     );
   }
 }
